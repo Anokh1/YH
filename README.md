@@ -4,7 +4,7 @@ This is a personal project about the heart.
 
 ## Startup [5-5-2024]
 
-![Week 1](../your-heart/src/assets/Readme/Week1.png)
+![Week 1](../public/assets/Readme/Week1.png)
 
 
 ### `npm start`
