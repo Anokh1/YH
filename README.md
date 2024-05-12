@@ -2,10 +2,11 @@
 
 This is a personal project about the heart. 
 
-## Startup [5-5-2024]
+## Week 1 : Startup [5-5-2024]
 
-![Week 1](../src/assets/Readme/Week1.png)
+![Week 1](../your-heart/src/assets/Readme/Week1.png)
 
+## Week 2 : Carousel [12-5-2024]
 
 ### `npm start`
 
