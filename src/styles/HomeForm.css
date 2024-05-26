@@ -1,0 +1,26 @@
+/* HomeForm.css */
+.form-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container .p-field {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    margin-bottom: 5px;
+}
+
+.form-container .p-inputtext {
+    width: 100%;
+}
+
+.form-container .p-password {
+    width: 100%;
+}

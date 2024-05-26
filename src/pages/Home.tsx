@@ -2,13 +2,17 @@
 import React from 'react';
 import '../styles/Home.css'; // Import custom CSS file for homepage styling
 import HeartAnimation from '../components/HeartAnimation';
+import HomeForm from '../components/HomeForm';
 
 const Home: React.FC = () => {
+    const handleSubmit = (formData: { name: string; password: string }) => {
+        // Handle form submission here
+        console.log('Form submitted with data:', formData);
+    };
     return (
         <div className="home-container"> {/* Apply custom class */}
-            {/* <h1>Welcome to My Website</h1> */}
-            {/* <p>This is the homepage of my website.</p> */}
-            <HeartAnimation />
+            {/* <HeartAnimation /> */}
+            <HomeForm onSubmit={handleSubmit} />
         </div>
     );
 };
