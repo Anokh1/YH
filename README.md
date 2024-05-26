@@ -8,7 +8,12 @@ This is a personal project about the heart.
 
 ## Week 2 : Carousel [12-5-2024]
 
-## Week 3 : Text Animation [5-5-2024]
+## Week 3 : Text Animation [19-5-2024]
+
+## Week 4 : Footer [26-5-2024]
+
+![Week 4](./src/assets/Readme/Week4.png)
+
 
 ### `npm start`
 
