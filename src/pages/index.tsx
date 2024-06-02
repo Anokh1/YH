@@ -1,9 +1,9 @@
 // src/pages/Home.tsx
 import React, { useState } from 'react';
-import '../styles/Home.css'; // Import custom CSS file for homepage styling
-import HeartAnimation from '../components/HeartAnimation';
-import HomeForm from '../components/HomeForm';
-import FormTable from '../components/FormTable';
+import '../css/Home.css'; // Import custom CSS file for homepage styling
+import HeartAnimation from './Home/HeartAnimation';
+import HomeForm from './Home/HomeForm';
+import FormTable from './Home/FormTable';
 
 const Home: React.FC = () => {
     const [formData, setFormData] = useState<{ name: string; password: string }[]>([]);

@@ -4,7 +4,7 @@ import { Card } from 'primereact/card';
 import { InputText } from 'primereact/inputtext';
 import { Password } from 'primereact/password';
 import { Button } from 'primereact/button';
-import '../styles/HomeForm.css'; // Import CSS file
+import '../../css/HomeForm.css'; 
 
 interface HomeFormProps {
     onSubmit: (formData: { name: string; password: string }) => void;

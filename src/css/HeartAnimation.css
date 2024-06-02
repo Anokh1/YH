@@ -1,11 +1,4 @@
-/* src/pages/Home.css */
-.home-container {
-    background-color: #81D8D0; /* Dark background color */
-    color: #fff; /* White text color for better contrast */
-    padding: 20px; /* Add padding for readability */
-}
-
-/* src/styles/Home.css */
+/* src/css/HeartAnimation.css */
 @keyframes heartBeat {
     0% {
         transform: scale(1);
@@ -24,15 +17,18 @@
     }
 }
 
-.heart {
-    animation: heartBeat 1.5s infinite;
+.heart-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Ensure container takes up full height */
 }
 
 /*<a href="https://www.flaticon.com/free-icons/heart" title="heart icons">Heart icons created by Kroffle - Flaticon</a>*/
 .heart {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     background-image: url('../assets/heart.png'); /* Replace with your heart image */
     background-size: cover;
-    animation: heartBeat 1.5s infinite;
+    animation: heartBeat 5.9s infinite;
 }

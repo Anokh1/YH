@@ -1,0 +1,27 @@
+To see the folder structure: find . -type f > structure.txt
+
+./index.tsx
+./App.tsx
+./AppTopbar.tsx
+./css/Home.css
+./css/Navbar.css
+./css/HomeForm.css
+./css/FormTable.css
+./css/Footer.css
+./css/HeartAnimation.css
+./App.test.tsx
+./App.css
+./index.css
+./setupTests.ts
+./reportWebVitals.ts
+./AppFooter.tsx
+./react-app-env.d.ts
+./structure.txt
+./assets/Readme/Week1.png
+./assets/Readme/Week4.png
+./assets/heart.png
+./pages/index.tsx
+./pages/Home/HeartAnimation.tsx
+./pages/Home/FormTable.tsx
+./pages/Home/HomeForm.tsx
+./logo.svg

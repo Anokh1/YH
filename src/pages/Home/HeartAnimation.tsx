@@ -1,6 +1,6 @@
 // src/components/HeartAnimation.tsx
 import React from 'react';
-import '../styles/HeartAnimation.css';
+import '../../css/HeartAnimation.css';
 
 const HeartAnimation: React.FC = () => {
     return (
