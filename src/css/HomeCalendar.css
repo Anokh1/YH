@@ -1,0 +1,5 @@
+/* HomeCalendar.css */
+.calendar-container {
+    max-width: 300px;
+    margin-left: 20px; /* Adjust the margin to create space between the form and the calendar */
+}

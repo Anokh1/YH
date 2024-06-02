@@ -1,6 +1,6 @@
 # Your Heart Project
 
-This is a personal project about the heart. 
+This is a personal project about your heart. 
 
 ## Week 1 : Startup [5-5-2024]
 
@@ -14,6 +14,9 @@ This is a personal project about the heart.
 
 ![Week 4](./src/assets/Readme/Week4.png)
 
+## Week 5 : Logo [2-6-2024]
+
+![Week 5](./src/assets/Readme/Week5.png)
 
 ### `npm start`
 

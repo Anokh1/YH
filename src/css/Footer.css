@@ -6,14 +6,29 @@
     color: #fff;
     bottom: 0;
     left: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2); /* Add shadow to the footer */
 }
 
 .container {
     display: flex;
-    flex-direction: column;
-    padding: 10px;
+    justify-content: space-between; /* Align content evenly */
+    align-items: center; /* Center content vertically */
+    padding: 0 20px; /* Add padding to the sides */
 }
 
-.content {
-    flex: 1;
+.footer-logo {
+    width: 39px;
+}
+
+.text-muted {
+    font-size: 14px; /* Adjust font size */
+}
+
+.footer-content {
+    display: flex;
+    align-items: center; /* Center content vertically */
+}
+
+.footer-content span {
+    margin-right: 10px; /* Add spacing between logo and text */
 }
