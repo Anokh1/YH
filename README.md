@@ -18,6 +18,12 @@ This is a personal project about your heart.
 
 ![Week 5](./src/assets/Readme/Week5.png)
 
+## Week 6 : Holiday [9-6-2024]
+
+## Week 7 :  [16-6-2024]
+
+## Week 6 : Home Spacing [23-6-2024]
+
 ### `npm start`
 
 Runs the app in the development mode.\

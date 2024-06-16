@@ -17,25 +17,23 @@ const Home: React.FC = () => {
 
     return (
         <div className="home-container"> {/* Apply custom class */}
-            <div>
+            <div className="section-spacing">
                 {/* <HeartAnimation /> */}
             </div>
-            <div className="form-calendar-container">
+            <div className="form-calendar-container section-spacing">
                 <div>
                     <HomeForm onSubmit={handleSubmit} />
                 </div>
                 <br></br>
                 <div>
-                    // TODO implement calendar
-                    {/* <HomeCalendar /> */}
+                    <HomeCalendar />
                 </div>
             </div>
-            <div>
+            <div className="section-spacing">
                 <FormTable data={formData} />
             </div>
         </div>
     );
 };
-
 
 export default Home;

@@ -37,3 +37,8 @@
     animation: heartBeat 1.5s infinite;
 }
 
+.section-spacing {
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+
