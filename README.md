@@ -20,9 +20,9 @@ This is a personal project about your heart.
 
 ## Week 6 : Holiday [9-6-2024]
 
-## Week 7 :  [16-6-2024]
+## Week 7 : Home Spacing [16-6-2024]
 
-## Week 6 : Home Spacing [23-6-2024]
+## Week 6 : [23-6-2024]
 
 ### `npm start`
 
