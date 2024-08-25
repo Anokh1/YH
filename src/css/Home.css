@@ -2,7 +2,7 @@
 .home-container {
     background-color: #81D8D0; /* Dark background color */
     color: #fff; /* White text color for better contrast */
-    padding: 20px; /* Add padding for readability */
+    padding: 20px; 
 }
 
 /* src/css/Home.css */
@@ -38,7 +38,12 @@
 }
 
 .section-spacing {
-    margin-bottom: 20px; /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
 }
+
+.section-spacing:last-child {
+    margin-bottom: 0; /* Ensure no extra space after the last section */
+}
+
 
 

@@ -1,16 +1,20 @@
 import React from 'react';
 import './css/Footer.css';
-import myLogo from './assets/logo.png'
-
+import myLogo from './assets/love.png';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="footer">
-      <div className="container">
-      <img src={myLogo} alt="My Logo" className="footer-logo" />
-        <span className="text-muted">Sometime 2024</span>
+    <div className="wrapper">
+      <div className="content">
+        {/* Other content of the page will go here */}
       </div>
-    </footer>
+      <footer className="footer">
+        <div className="container">
+          <img src={myLogo} alt="My Logo" className="footer-logo" />
+          <span className="text-muted">Sometime 2024</span>
+        </div>
+      </footer>
+    </div>
   );
 };
 
