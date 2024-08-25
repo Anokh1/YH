@@ -1,0 +1,50 @@
+.home-carousel {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.carousel-item {
+    position: relative;
+    text-align: center;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 80%;
+    box-sizing: border-box;
+    opacity: 0;
+    /* Initially hidden */
+    visibility: hidden;
+    /* Initially hidden */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    /* Smooth transition */
+}
+
+.carousel-item:hover .carousel-caption {
+    opacity: 1;
+    /* Show on hover */
+    visibility: visible;
+    /* Show on hover */
+}
+
+.carousel-caption h3 {
+    margin: 0 0 5px 0;
+}
+
+.carousel-caption p {
+    margin: 0;
+}

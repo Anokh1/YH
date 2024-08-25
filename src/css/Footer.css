@@ -9,7 +9,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 /* Main content area should grow as needed */
