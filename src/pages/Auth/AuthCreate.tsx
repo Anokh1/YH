@@ -1,4 +1,3 @@
-// src/pages/Auth/AuthCreateAccountForm.tsx
 import React from 'react';
 import { InputText } from 'primereact/inputtext';
 import { Password } from 'primereact/password';
@@ -14,21 +13,21 @@ export const AuthCreate: React.FC<AuthCreateAccountFormProps> = ({ toggleAuthMod
             <h2>Create Account</h2>
             <div className="p-field">
                 <label htmlFor="username">Username</label>
-                <InputText id="username" />
+                <InputText id="username" className="p-inputtext-sm" />
             </div>
             <div className="p-field">
                 <label htmlFor="email">Email</label>
-                <InputText id="email" />
+                <InputText id="email" className="p-inputtext-sm" />
             </div>
             <div className="p-field">
                 <label htmlFor="password">Password</label>
-                <Password id="password" feedback={false} />
+                <InputText id="password" className="p-inputtext-sm" type='password' />
             </div>
             <div className="p-field">
                 <label htmlFor="confirmPassword">Confirm Password</label>
-                <Password id="confirmPassword" feedback={false} />
+                <InputText id="confirmPassword" className="p-inputtext-sm" type='password' />
             </div>
-            <Button label="Create Account" icon="pi pi-user-plus" />
+            <Button label="Create Account" icon="pi pi-user-plus" className="p-button-rounded" />
             <p className="auth-switch">
                 Already have an account? <span onClick={toggleAuthMode}>Login here</span>.
             </p>

@@ -1,4 +1,3 @@
-// src/pages/Auth/AuthForm.tsx
 import React from 'react';
 import { InputText } from 'primereact/inputtext';
 import { Password } from 'primereact/password';
@@ -14,13 +13,13 @@ export const AuthLogin: React.FC<AuthFormProps> = ({ toggleAuthMode }) => {
             <h2>Login</h2>
             <div className="p-field">
                 <label htmlFor="username">Username</label>
-                <InputText id="username" />
+                <InputText id="username" className="p-inputtext-sm" type='password' />
             </div>
             <div className="p-field">
                 <label htmlFor="password">Password</label>
-                <Password id="password" feedback={false} />
+                <InputText id="username" className="p-inputtext-sm" type='password' />
             </div>
-            <Button label="Login" icon="pi pi-sign-in" />
+            <Button label="Login" icon="pi pi-sign-in" className="p-button-rounded" />
             <p className="auth-switch">
                 Don't have an account? <span onClick={toggleAuthMode}>Create one here</span>.
             </p>
