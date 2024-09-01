@@ -1,7 +1,6 @@
-import React from 'react';
-import { InputText } from 'primereact/inputtext';
-import { Password } from 'primereact/password';
 import { Button } from 'primereact/button';
+import { InputText } from 'primereact/inputtext';
+import React from 'react';
 
 interface AuthFormProps {
     toggleAuthMode: () => void;
@@ -13,7 +12,7 @@ export const AuthLogin: React.FC<AuthFormProps> = ({ toggleAuthMode }) => {
             <h2>Login</h2>
             <div className="p-field">
                 <label htmlFor="username">Username</label>
-                <InputText id="username" className="p-inputtext-sm" type='password' />
+                <InputText id="username" className="p-inputtext-sm" />
             </div>
             <div className="p-field">
                 <label htmlFor="password">Password</label>

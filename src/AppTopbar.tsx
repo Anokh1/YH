@@ -1,41 +1,46 @@
-import React, { useState } from 'react';
 import { Menubar } from 'primereact/menubar';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import "./css/Navbar.css";
 
 const Navbar: React.FC = () => {
-    const [showMenu, setShowMenu] = useState(false);
+    const navigate = useNavigate(); // Initialize useNavigate hook
 
     const items = [
         {
             label: 'YH', // Text label for the logo
             className: 'logo-item', // Add a custom class to style the logo separately
             command: () => {
-                // Handle click event for the logo if needed
-                console.log('Logo clicked');
+                // Optionally handle logo click (navigate to home, etc.)
+                navigate('/');
             }
         },
         {
             label: 'Home',
             icon: 'pi pi-fw pi-home',
             command: () => {
-                // Handle click event for Home
-                console.log('Home clicked');
+                navigate('/'); // Navigate to Home page
             }
         },
         {
             label: 'About',
             icon: 'pi pi-fw pi-info',
             command: () => {
-                // Handle click event for About
-                console.log('About clicked');
+                navigate('/about'); // Navigate to About page
             }
         },
         {
             label: 'Contact',
             icon: 'pi pi-fw pi-envelope',
             command: () => {
-                // Handle click event for Contact
-                console.log('Contact clicked');
+                navigate('/contact'); // Navigate to Contact page
+            }
+        },
+        {
+            label: 'Profile',
+            icon: 'pi pi-fw pi-user',
+            command: () => {
+                navigate('/auth'); // Navigate to Profile/Auth page
             }
         }
     ];
@@ -45,13 +50,6 @@ const Navbar: React.FC = () => {
             <div className="menu-container">
                 <Menubar model={items} />
             </div>
-            {showMenu && (
-                <div className="menu">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            )}
         </div>
     );
 };
