@@ -3,18 +3,34 @@ import React from 'react';
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import Home from './pages';
+import Home from './pages/Home';
 import Navbar from './AppTopbar';
 import Footer from './AppFooter';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import Auth from './pages/Auth';
 
 const App: React.FC = () => {
+    const location = useLocation();
+
+    // Hide Navbar and Footer on the Auth page
+    const hideNavFooter = location.pathname === '/auth';
+
     return (
         <div className="App">
-            <Navbar />
-            <Home />
-            <Footer />
+            {!hideNavFooter && <Navbar />}
+            <Routes>
+                <Route path="/home" element={<Home />} />
+                <Route path="/auth" element={<Auth />} />
+            </Routes>
+            {!hideNavFooter && <Footer />}
         </div>
     );
 };
 
-export default App;
+const AppWrapper: React.FC = () => (
+    <Router>
+        <App />
+    </Router>
+);
+
+export default AppWrapper;

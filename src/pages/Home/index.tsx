@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import '../css/Home.css'; // Import custom CSS file for homepage styling
-import FormTable from './Home/FormTable';
-import HomeCalendar from './Home/HomeCalendar';
-import HomeForm from './Home/HomeForm';
-import HomeCarousel from './Home/HomeCarousel';
+import '../../css/Home.css'
+import FormTable from './FormTable';
+import HomeCalendar from './HomeCalendar';
+import HomeForm from './HomeForm';
+import HomeCarousel from './HomeCarousel';
 
 const Home: React.FC = () => {
     const [formData, setFormData] = useState<{ name: string; password: string }[]>([]);
