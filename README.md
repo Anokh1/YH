@@ -44,7 +44,9 @@ This is a personal project about your heart.
 
 ## Week 18 : Login Page [1-9-2024]
 
-## Week 19 : Profile Page [8-9-2024]
+## Week 19 : Profile Page, Contact Page, About Page [8-9-2024]
+
+## Week 20 : Holiday [15-9-2024]
 
 
 ### `npm start`

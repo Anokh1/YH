@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-route
 import Auth from './pages/Auth';
 import Profile from './pages/Profile';
 import Contact from './pages/Contact';
+import About from './pages/About';
 
 const App: React.FC = () => {
     const location = useLocation();
@@ -25,6 +26,7 @@ const App: React.FC = () => {
                 <Route path="/auth" element={<Auth />} />
                 <Route path="/profile" element={<Profile />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/about" element={<About />} />
             </Routes>
             {!hideNavFooter && <Footer />}
         </div>
