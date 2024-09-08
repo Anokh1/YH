@@ -42,9 +42,9 @@ This is a personal project about your heart.
 
 ## Week 17 : [25-8-2024]
 
-## Week 18 : [1-9-2024]
+## Week 18 : Login Page [1-9-2024]
 
-## Week 19 : [8-9-2024]
+## Week 19 : Profile Page [8-9-2024]
 
 
 ### `npm start`
