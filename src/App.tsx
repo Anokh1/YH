@@ -8,6 +8,7 @@ import Navbar from './AppTopbar';
 import Footer from './AppFooter';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Auth from './pages/Auth';
+import Profile from './pages/Profile';
 
 const App: React.FC = () => {
     const location = useLocation();
@@ -21,6 +22,7 @@ const App: React.FC = () => {
             <Routes>
                 <Route path="/home" element={<Home />} />
                 <Route path="/auth" element={<Auth />} />
+                <Route path="/profile" element={<Profile />} />
             </Routes>
             {!hideNavFooter && <Footer />}
         </div>

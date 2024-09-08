@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
             label: 'Home',
             icon: 'pi pi-fw pi-home',
             command: () => {
-                navigate('/'); // Navigate to Home page
+                navigate('/home'); // Navigate to Home page
             }
         },
         {
@@ -37,10 +37,17 @@ const Navbar: React.FC = () => {
             }
         },
         {
+            label: 'Todo',
+            icon: 'pi pi-fw pi-book',
+            command: () => {
+                navigate('/todo'); // Navigate to Profile/Auth page
+            }
+        },
+        {
             label: 'Profile',
             icon: 'pi pi-fw pi-user',
             command: () => {
-                navigate('/auth'); // Navigate to Profile/Auth page
+                navigate('/profile'); // Navigate to Profile/Auth page
             }
         }
     ];
