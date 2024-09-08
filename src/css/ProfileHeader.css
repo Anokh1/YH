@@ -1,0 +1,12 @@
+.profile-header {
+    text-align: center;
+}
+
+.profile-header h2 {
+    margin-top: 1rem;
+    font-size: 1.75rem;
+}
+
+.profile-tagline {
+    color: #777;
+}

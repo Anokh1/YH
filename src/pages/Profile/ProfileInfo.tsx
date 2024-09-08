@@ -1,21 +1,15 @@
 import React from 'react';
 import { Card } from 'primereact/card';
+import '../../css/ProfileInfo.css';
 
 const ProfileInfo: React.FC = () => {
-    const user = {
-        name: 'John Doe',
-        email: 'johndoe@example.com',
-        address: '123 Street, City, Country'
-    };
-
     return (
-        <div className="profile-info">
-            <Card title="User Information" style={{ width: '100%' }}>
-                <p><strong>Name: </strong>{user.name}</p>
-                <p><strong>Email: </strong>{user.email}</p>
-                <p><strong>Address: </strong>{user.address}</p>
-            </Card>
-        </div>
+        <Card className="profile-info">
+            <h3>Personal Information</h3>
+            <p><strong>Username:</strong> icebear393</p>
+            <p><strong>Email:</strong> adrianheart@gmail.com</p>
+            <p><strong>Location:</strong> Penang, MY</p>
+        </Card>
     );
 };
 

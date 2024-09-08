@@ -1,15 +1,29 @@
 import React from 'react';
-import '../../css/Profile.css';
 import ProfileHeader from './ProfileHeader';
 import ProfileInfo from './ProfileInfo';
-import ProfileEditButton from './ProfileEditButton';
+import '../../css/Profile.css';
+import ProfileStats from './ProfileStats';
+import ProfileSettings from './ProfileSettings';
 
 const Profile: React.FC = () => {
     return (
-        <div className="profile-container">
+        <div className="profile-page">
+            {/* Header Section */}
             <ProfileHeader />
-            <ProfileInfo />
-            <ProfileEditButton />
+
+            {/* Main Profile Content */}
+            <div className="profile-content">
+                <div className="profile-left">
+                    {/* User Information */}
+                    <ProfileInfo />
+                </div>
+                
+                <div className="profile-right">
+                    {/* Profile Statistics and Settings */}
+                    <ProfileStats />
+                    <ProfileSettings />
+                </div>
+            </div>
         </div>
     );
 };
