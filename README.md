@@ -48,6 +48,9 @@ This is a personal project about your heart.
 
 ## Week 20 : Holiday [15-9-2024]
 
+## Week 21 : [22-9-2024]
+
+## Week 22 : [29-9-2024]
 
 ### `npm start`
 
