@@ -54,6 +54,8 @@ This is a personal project about your heart.
 
 ## Week 23 : [6-10-2024]
 
+## Week 24 : [13-10-2024]
+
 ### `npm start`
 
 Runs the app in the development mode.\
